@@ -3,15 +3,15 @@ description: "Github tutorial on actions"
 author: "octocat@github.com"
 
 inputs:
-	MY_NAME:
-		description: "Who to greet"
-		required: true
-		default: "world"
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "world"
 
 runs:
-	using: "docker"
-	image; "Dockerfile"
+  using: "docker"
+  image; "Dockerfile"
 
 branding:
-	icon: "mic"
-	color: "purple"
+  icon: "mic"
+  color: "purple"
