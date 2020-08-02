@@ -1,0 +1,2 @@
+name: "A workflow for the github hello world example"
+on: push
